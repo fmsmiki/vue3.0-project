@@ -1,6 +1,6 @@
 <template>
 	<div class="index">
-		<el-button type="primary">主要按钮</el-button>
+		<p>index</p>
 		<el-button type="primary">主要按钮</el-button>
 	</div>
 </template>
@@ -8,5 +8,10 @@
 <script>
 </script>
 
-<style>
+<style lang="scss" scoped>
+.index {
+	p {
+		color: red;
+	}	
+}
 </style>
